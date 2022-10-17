@@ -1,5 +1,33 @@
-.social i {
+header {
+  position: relative; /* #socialの基準位置を相対位置へ変更する */
+}
+
+.svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 0.875em
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+
+
+/*.social {
   display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+}
+  /*display: inline-block;
   margin-left: 20px;
-  position: absolute;
+  position:  absolute;
+  right: 20px;
+
 }
